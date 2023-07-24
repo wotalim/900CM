@@ -1210,13 +1210,13 @@ function kernel() {
             chain.fcall(patch_buffer, p.read8(KERNEL_BASE_PTR));
             chain.fcall(window.syscalls[73], patch_buffer, 0x4000);
             chain.run();
-            alert("Jailbreak done. Remove USB Drive from PS4");
+            alert("AKTIFKAN KUNCI SUKSES, CABUT FLASHDISK NYA LUR");
             sessionStorage.Exploit="yes";
             setTimeout(load_pocj, 50);
         }
         else
         {
-            alert("failed to trigger exploit kernel heap might be corrupted, try again or reboot the console");
+            alert("GAGAL WOI, RESTART EN PS E TERUS BALENONO");
             p.write8(0, 0);
         }
  };
